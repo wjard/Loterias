@@ -102,10 +102,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\WebConnections\WebConnections.csproj">
+    <ProjectReference Include="..\WebConnections\WebConnections.csproj">
       <Project>{928475ab-62d1-46a9-afe9-706f58aca3c8}</Project>
       <Name>WebConnections</Name>
-      <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

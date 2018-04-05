@@ -1,25 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loterias", "Loterias\Loterias.csproj", "{88CF9828-8A83-4D48-BC40-5A1166FC9125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConnections", "..\WebConnections\WebConnections.csproj", "{928475AB-62D1-46A9-AFE9-706F58ACA3C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConnections", "WebConnections\WebConnections.csproj", "{928475AB-62D1-46A9-AFE9-706F58ACA3C8}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://wja.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Loterias\\Loterias.csproj
-		SccProjectName1 = Loterias
-		SccLocalPath1 = Loterias
-		SccProjectUniqueName2 = ..\\WebConnections\\WebConnections.csproj
-		SccProjectName2 = ../WebConnections
-		SccLocalPath2 = ..\\WebConnections
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -36,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {277E0B6F-59FB-47BD-9196-E7F06CD9E3D7}
 	EndGlobalSection
 EndGlobal
